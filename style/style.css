@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ol {
+  margin: 0;
+  margin-inline: 0;
+}
+ol li {
+  list-style: none;
+}
