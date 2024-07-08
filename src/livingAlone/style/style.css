@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Song Myung", serif;
+}
+* .song-myung-regular {
+  font-family: "Song Myung", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+.nav-section {
+  width: 100%;
+  color: black;
+  background-color: rgb(117, 252, 76);
+}
+.nav-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 100%;
+  max-width: calc(200svh + 4rem);
+  padding-inline: 5rem;
+  margin-inline: auto;
+}
+
+.section {
+  margin-inline: 50px;
+}
+
+.container {
+  justify-content: center;
+  min-width: 100%;
+  max-width: calc(200svh + 4rem);
+  margin-block: 50px;
+  margin-inline: auto;
+}
